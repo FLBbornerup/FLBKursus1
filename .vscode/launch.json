@@ -8,7 +8,7 @@
             "server": "https://udvikling-nav2018-r4-w1.bdchosting.dk",
             "serverInstance": "BDCkursus_FLB_SLN",
             "authentication": "UserPassword",
-           // "startupObjectId": 22,
+            "startupObjectId": 22,
             "port": 8049,
         
         }
