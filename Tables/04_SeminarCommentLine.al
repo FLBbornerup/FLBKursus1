@@ -18,7 +18,8 @@ Field(20;"Document Line No.";Integer)
       
       field(30;"No.";Code[20])
        { Caption='No.'; 
-       TableRelation=if ("Table Name"=CONST(Seminar)) "Seminar";
+       TableRelation=if ("Table Name"=CONST(Seminar)) "Seminar" ;
+        
         } 
         field(40;"Line No.";Integer) 
         { Caption='Line No.'; } 
