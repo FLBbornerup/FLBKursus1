@@ -2,15 +2,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "al",
+            "name": "Microsoft cloud sandbox",
             "request": "launch",
-            "name": "Kursus",
-            "server": "https://udvikling-nav2018-r4-w1.bdchosting.dk",
-            "serverInstance": "BDCkursus_FLB_SLN",
-            "authentication": "UserPassword",
-            "startupObjectId": 22,
-            "port": 8049,
-        
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "FLB_MB820_Kursus",
+            "startupObjectId": 9307,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,          
+            "enableSqlInformationDebugger": true,
+            "tenant": "118cdd4c-b0f6-489b-8f34-9a641e4a3437"        
         }
 
     ]
